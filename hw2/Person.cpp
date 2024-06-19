@@ -13,7 +13,7 @@ std::string Person::getName()
 
 void Person::orderFlowers(Florist* florist, Person* person, std::vector<std::string> order)
 {
-	std::cout << getName() << " orders flowers to " << person->getName() << " from Florist " << florist->getName() << ": " << VectorToString(order) << std::endl;
+	std::cout << getName() << " orders flowers to " << person->getName() << " from " << florist->getName() << ": " << VectorToString(order) << std::endl;
 	florist->acceptOrder(person, order);
 }
 

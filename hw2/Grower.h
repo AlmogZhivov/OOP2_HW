@@ -12,4 +12,5 @@ private:
 public:
 	Grower(std::string, Gardener* gardener);
 	FlowersBouquet* prepareOrder(std::vector<std::string>);
+	std::string getName();
 };

@@ -12,4 +12,5 @@ private:
 public:
 	Wholesaler(std::string, Grower* grower);
 	FlowersBouquet* acceptOrder(std::vector < std::string >);
+	std::string getName();
 };

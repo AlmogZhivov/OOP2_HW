@@ -15,4 +15,5 @@ private:
 public:
 	Florist(std::string, Wholesaler*, FlowerArranger*, DeliveryPerson*);
 	void acceptOrder(Person*, std::vector<std::string>);
+	std::string getName();
 };
